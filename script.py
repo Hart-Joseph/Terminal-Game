@@ -27,6 +27,7 @@ class Player:
 player1 = Player()
 player1.name = input("Hey, there! Thank you for taking the time to sit down and take a nursing proficiency exam. May I ask you to please enter your name?\nName: ")
 print(f"It's a pleasure to meet you, {player1.name}. I hope that you will enjoy this test that is comprised of {len(questions)} questions.")
+
 for i in range(len(questions)):
     print(questions[i].get("Question"))
     print("A: " + questions[i].get("A"))
@@ -36,12 +37,11 @@ for i in range(len(questions)):
     player_answer = input("Enter your answer: ")
     while player_answer.upper() not in questions[i]:
         player_answer = input("That is not a valid entry. Please enter an answer from A to D: ")
-    if questions[i].get("Answer") == player_answer.upper():  # Directly compare with the answer letter
+    if questions[i].get("Answer") == player_answer.upper():
         player1.score += 1
         player1.update_total_score()
         print("Correct!")
     else:
         print(f"The correct answer is {questions[i].get("Answer")}")
-
 
 print(player1)
