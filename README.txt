@@ -1,0 +1,1 @@
+This is a terminal game to be run in python3.  It asks questions to evaluate readiness for the NCLEX exam to become an RN.
