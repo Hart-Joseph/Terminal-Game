@@ -181,13 +181,6 @@ questions = [{
         "D": "Values clarification",
         "Answer": "A"
     }, {
-        "Question": "Which of the following statements accurately describes recommended guidelines for overcoming resistance for change",
-        "A": "Explain the proposed changes only to the managers of the people involved.",
-        "B": "Whenever possible, use technical language to describe the changes.",
-        "C": "List the advantages of the proposed change for members of the group.",
-        "D": "Avoid relating the change to the group's existing beliefs and values.",
-        "Answer": "C"
-    }, {
         "Question": "A nurse is considering the delegation of administering medications to an unskilled assistant. What is the first question the nurse must ask herself before doing so?",
         "A": '"Has the assistant been trained to perform this task?"',
         "B": '"Is the delegated task permitted by law?"',
