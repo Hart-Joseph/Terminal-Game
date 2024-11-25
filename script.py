@@ -40,8 +40,8 @@ for i in range(len(questions)):
     if questions[i].get("Answer") == player_answer.upper():
         player1.score += 1
         player1.update_total_score()
-        print("Correct!")
+        print("Correct!\n")
     else:
-        print(f"The correct answer is {questions[i].get("Answer")}")
+        print(f"The correct answer is {questions[i].get("Answer")}\n")
 
 print(player1)
