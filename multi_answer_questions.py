@@ -374,5 +374,3 @@ multi_answer_questions = [
         },
         "CorrectAnswers": ["A", "C", "D"]
     }]
-
-print(len(multi_answer_questions))
