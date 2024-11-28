@@ -10,6 +10,7 @@ print(f"It's a pleasure to meet you, {player1.name}. This test has three section
 print("Section 1:\n")
 
 for i in range(len(questions)):
+    print(f"Question #{i + 1}:")
     print(f"{questions[i].get("Question")}\n")
     print(f"A: {questions[i].get("A")}\n")
     print(f"B: {questions[i].get("B")}\n")
